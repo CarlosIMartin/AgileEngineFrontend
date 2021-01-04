@@ -9,8 +9,8 @@
 
 This application consist in a simple React frontend where the user will be able to see its transaction history.
 
-- Credit transactions are showed in Green.
-- Debit transactions are showed in Red.
+- Credit transactions are shown in Green.
+- Debit transactions are shown in Red.
 - If the user clicks on a transaction, the rest of the information will be displayed (Id and EffectiveDate).
 
 Basic example:
