@@ -1,7 +1,8 @@
 import axios, { AxiosResponse } from "axios";
 import { ITransaction } from "../../interfaces/ITransaction"
+import config from "../../config/index";
 
-const GET_TRANSACTIONS = "http://localhost:3000/account/history";
+const GET_TRANSACTIONS = `http://localhost:${config.port}/account/history`;
 
 export const getTransactions = async (): Promise<ITransaction[]> => {
   try {
